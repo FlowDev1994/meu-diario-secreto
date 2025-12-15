@@ -2,8 +2,8 @@
 
 Um aplicativo web moderno e seguro para gerenciamento pessoal. O projeto combina um **Diário Pessoal** com um **Gerenciador de Tarefas**, protegidos por autenticação e segurança a nível de banco de dados (RLS).
 
-![Preview do Projeto](https://via.placeholder.com/800x400?text=Adicione+um+Print+do+Seu+Projeto+Aqui)
-*(Substitua este link por uma imagem real do seu projeto)*
+![Preview do Projeto][(https://via.placeholder.com/800x400?text=Adicione+um+Print+do+Seu+Projeto+Aqui)](https://meu-diario-secreto.vercel.app/)
+
 
 ## 🚀 Funcionalidades
 
