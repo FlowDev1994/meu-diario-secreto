@@ -1,16 +1,32 @@
-# React + Vite
+# 🔒 Meu Diário Secreto & Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo web moderno e seguro para gerenciamento pessoal. O projeto combina um **Diário Pessoal** com um **Gerenciador de Tarefas**, protegidos por autenticação e segurança a nível de banco de dados (RLS).
 
-Currently, two official plugins are available:
+![Preview do Projeto](https://via.placeholder.com/800x400?text=Adicione+um+Print+do+Seu+Projeto+Aqui)
+*(Substitua este link por uma imagem real do seu projeto)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## React Compiler
+- **Autenticação Segura:** Login e Cadastro com E-mail e Senha via Supabase Auth.
+- **Diário Pessoal:** Editor de texto amplo para registrar pensamentos diários, salvo automaticamente por data.
+- **Calendário Interativo:** Navegação visual entre os dias.
+- **Lista de Tarefas (To-Do):** Adicionar, concluir e excluir tarefas vinculadas ao dia selecionado.
+- **Segurança de Dados:** Implementação de **RLS (Row Level Security)**. Cada usuário vê apenas seus próprios dados.
+- **Design Moderno:** Interface "Dark Mode" com elementos translúcidos (Glassmorphism) e responsividade.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **Frontend:** [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+- **Linguagem:** JavaScript (ES6+)
+- **Estilização:** CSS3 (Variáveis CSS, Flexbox, Grid Layout)
+- **Backend as a Service:** [Supabase](https://supabase.com/) (PostgreSQL)
+- **Bibliotecas:** - `react-calendar` (Calendário)
+  - `lucide-react` (Ícones)
+- **Deploy:** Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Como rodar o projeto localmente
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/SEU-USUARIO/meu-diario-secreto.git](https://github.com/SEU-USUARIO/meu-diario-secreto.git)
+   cd meu-diario-secreto
